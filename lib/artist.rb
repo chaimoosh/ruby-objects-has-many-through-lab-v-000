@@ -12,5 +12,10 @@ class Artist
     song.artist = self
   end 
   
+  def genres 
+   binding.pry
+    @songs.collect do
+  end 
+  
   
 end 
