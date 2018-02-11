@@ -15,7 +15,7 @@ class Artist
   def genres 
    #binding.pry
     @songs.collect do |song|
-      song.genre.name 
+      song.genre 
     end 
   end 
   
