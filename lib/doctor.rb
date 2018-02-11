@@ -9,4 +9,10 @@ class Doctor
   def add_appointment(appointment)
     @appointments << appointment
   end 
+  
+  def patients
+    @appointments.collect do |appt|
+      appt.patient 
+    end 
+  end 
 end 
