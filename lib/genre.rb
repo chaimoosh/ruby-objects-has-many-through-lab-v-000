@@ -7,6 +7,6 @@ class Genre
   end 
   
   def songs
-    
+    if 
   end 
 end 
