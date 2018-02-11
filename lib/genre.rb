@@ -6,7 +6,5 @@ class Genre
     @songs = []
   end 
   
-  def songs
-    
-  end 
+ 
 end 
