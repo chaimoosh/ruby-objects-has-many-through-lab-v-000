@@ -7,6 +7,6 @@ class Genre
   end 
   
   def songs
-    binding.pry
+    
   end 
 end 
